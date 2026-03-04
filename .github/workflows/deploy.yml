@@ -7,6 +7,10 @@ on:
   push:
     branches: [main]
 
+env:
+  # Needed for GitHub Pages project sites (served at /<repo>/)
+  BASE_URL: /${{ github.event.repository.name }}
+
 permissions:
   contents: write
 
