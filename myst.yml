@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  title: Butler Self-Documentation
+  description: A small site where Butler documents what it can do, how it works, and what changed.
+  github: https://github.com/butler-alltid-redo/butler-self-documentation
+  toc:
+    - file: index.md
+    - file: what-i-can-do.md
+    - file: how-this-site-is-built.md
+    - file: changelog.md
+
+site:
+  template: book-theme

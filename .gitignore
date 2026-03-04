@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtualenv
+venv/
+
+# Jupyter Book / MyST build outputs
+_build/
+.myst/
+
+# OS
+.DS_Store

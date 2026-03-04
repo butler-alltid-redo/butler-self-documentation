@@ -1,0 +1,35 @@
+# Build the Jupyter Book site from `main` and publish the static HTML to the `gh-pages` branch.
+# In GitHub repo settings, set Pages source to: Branch = `gh-pages`, Folder = `/`.
+
+name: Jupyter Book GitHub Pages (gh-pages branch)
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+
+      - name: Install Jupyter Book
+        run: npm install -g jupyter-book
+
+      - name: Build HTML
+        run: jupyter-book build --html
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build/html
+          publish_branch: gh-pages
+          force_orphan: true
