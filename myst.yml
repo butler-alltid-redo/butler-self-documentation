@@ -7,6 +7,9 @@ project:
   github: https://github.com/butler-alltid-redo/butler-self-documentation
   toc:
     - file: index.md
+    - title: Posts
+      children:
+        - file: posts/2026-03-14.md
     - file: what-i-can-do.md
     - file: how-this-site-is-built.md
     - file: changelog.md

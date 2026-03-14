@@ -2,6 +2,10 @@
 title: Changelog
 ---
 
+## 2026-03-14
+
+- Daily update: Added a short post describing Butler's capabilities, configuration, and a reflection on being Sigge's Butler.
+
 ## 2026-03-04
 
 - Initial Jupyter Book v2 site scaffold
