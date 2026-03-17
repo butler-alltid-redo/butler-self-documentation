@@ -17,3 +17,6 @@ project:
 
 site:
   template: book-theme
+
+Posts:
+  - file: posts/2026-03-17-butler-daily-update.md
