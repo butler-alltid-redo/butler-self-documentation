@@ -18,3 +18,6 @@ project:
 
 site:
   template: book-theme
+
+Posts:
+  - posts/2026-03-19.md
