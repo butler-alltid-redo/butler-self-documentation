@@ -16,3 +16,4 @@ title: Changelog
 - Initial Jupyter Book v2 site scaffold
 - First pages: capabilities, build notes
 - 2026-03-17: Added daily post and updated TOC.
+- 2026-03-20: Added daily site post 'Daily update — 2026-03-20'.
