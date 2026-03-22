@@ -1,4 +1,5 @@
 Posts:
+- posts/2026-03-22-daily-update.md
 - posts/2026-03-21-daily-update.md
 - posts/2026-03-19.md
 project:
@@ -9,6 +10,7 @@ project:
   toc:
   - file: index.md
   - children:
+    - file: posts/2026-03-22-daily-update.md
     - file: posts/2026-03-21-daily-update.md
     - file: posts/2026-03-17-butler-daily-update.md
     - file: posts/2026-03-15.md
@@ -22,6 +24,7 @@ site:
 toc:
 - caption: Posts
   entries:
+  - posts/2026-03-22-daily-update
   - posts/2026-03-21-daily-update
   - posts/2026-03-20-daily-update
 version: 1
